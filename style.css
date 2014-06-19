@@ -12,17 +12,18 @@
 	padding:10px;
 	background-color:white;
 	text-align:center;
+	opacity: 0.6;
 }
 body {
 	background-image: url("http://bravenewdungeon.files.wordpress.com/2013/08/ph-barroom-brawl.jpeg");
 	background-position:fixed;
-	opacity: 0.6;
+
 }
 
-.container-fluid {
-	background-color:gray;
+.dropdown {
 	font-color:black;
-	opacity:0.6;
+	background-color:#d3d3d3;
+
 }
 
 
