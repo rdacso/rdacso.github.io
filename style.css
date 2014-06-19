@@ -3,7 +3,7 @@
 .center {
 	position: fixed;
 	top: 30%;
-	left:50%;
+	left:42%;
 	margin-top: -50px;
 	margin-left: -300px;
 	font-variant:small-caps;
@@ -11,24 +11,19 @@
 	border-style:solid;
 	padding:10px;
 	background-color:white;
+	text-align:center;
 }
-
-h1.center {
-	font-size: 50px;
-	
-}
-
-
-h3.center {
-	font-size: 25px;
-	margin-left: 400px;
-}
-
-
 body {
 	background-image: url("http://bravenewdungeon.files.wordpress.com/2013/08/ph-barroom-brawl.jpeg");
 	background-position:fixed;
 	opacity: 0.6;
 }
+
+.container-fluid {
+	background-color:gray;
+	font-color:black;
+	opacity:0.6;
+}
+
 
 
