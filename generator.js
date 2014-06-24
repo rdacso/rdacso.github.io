@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
-		<script type = "text/javascript" src = "script.js"></script>
-		<link href ="style.css" rel = "stylesheet">
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-		<title> AutoDragons </title>
-	</head>
-	<body>
-		<div class="center">
-			<h1> Auto Dungeon Master Tools</h1>
-		
-			<h3>Making Dungeons and Dragons More Accessible Through Automation </h3> 
- 		</div>
-
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -26,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">HOME</a>
+      <a class="navbar-brand" href="#">Brand</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,8 +18,12 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="generator.html">Generators</a></li>
-            <li><a href="database.html">Databases</a></li>
+            <li><a href="databases.html">Databases</a></li>
             <li><a href="character.html">Character Specific</a></li>
+            <li class="divider"></li>
+            <li><a href="home.html">Home</a></li>
+            <li class="divider"></li>
+            <li><a href="help.html">Help</a></li>
           </ul>
         </li>
       </ul>
@@ -53,7 +39,3 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
-
-			
-</html>
