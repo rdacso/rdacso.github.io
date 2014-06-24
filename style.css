@@ -27,4 +27,63 @@ body {
 }
 
 
+#nav {
+  background: #222;
+  font-size: 1px;
+}
 
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #222;
+}
+
+#nav a {
+  display: block;
+  color: #fff;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+#nav a:hover {
+  background: #ffa627;
+}
+
+#main-nav {
+  overflow: hidden;
+}
+#main-nav > li {
+  float: left;
+}
+#main-nav > li > a {
+  font-size: 18em;
+  line-height: 2em;
+  padding: 0 1.5em;
+}
+
+.sub-nav, .sub-nav ul {
+  display: none;
+  position: absolute;
+}
+.sub-nav > li {
+  position: relative;
+}
+.sub-nav > li > a {
+  font-size: 16em;
+  line-height: 1.5em;
+  padding: 0 2em;
+}
+
+.sub-nav ul {
+  top: 0;
+  left: 100%;
+}
+.sub-nav ul a {
+  font-size: 14em;
+  line-height: 1.5em;
+  padding: 0 1.5em;
+}
+
+#main-nav li:hover > ul {
+  display: block;
+}
